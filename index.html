@@ -14,26 +14,40 @@
     <div class="content">
         <div class="header">
             <div class="left-nav">
-            <h1>Razor</h1>
-            <h6> <a href="#">Sales@Razor.uk </a><span><svg xmlns="http://www.w3.org/2000/svg" style="width:1rem"
-                class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-              </svg></span></h6>
-        </div>
-        <div class="right-nav">
-            <ul>
-                <li> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" style="width:1.5rem" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-                    </svg></a></li>
+                <h1>Razor</h1>
+                <h6> <a href="#">Sales@Razor.uk </a><span><svg xmlns="http://www.w3.org/2000/svg" style="width:1rem"
+                            class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
+                        </svg></span></h6>
+            </div>
+            <div class="right-nav">
+                <ul>
+                    <li> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" style="width:1.5rem" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                            </svg></a></li>
                     <li><a href="#"> Sign Up</a></li>
                     <li> <button type="button"> <a href="#">Request Demo</a></button></li>
-                </div>
+            </div>
             </ul>
         </div>
         <div class="white-bg">
-
+            <div class="center">
+                <h2>Agent login</h2>
+                <p>Hey, Enter your details to get sign in to your account</p>
+            </div>
+            <form action="post">
+                <label class="sr-only" for="email">Email</label><br>
+                <input type="text" id="email_or_phone" name="email" placeholder="Enter Email / Phone no"><br>
+                <label class="sr-only" for="password">Passcode</label><br>
+                <input type="password" name="password" id="password" placeholder="Passcode">
+                <p>Having trouble signing in!</p>
+                <button>Sign in</button>
+            </form>
+            
         </div>
         <div class="footer"></div>
     </div>

@@ -40,16 +40,42 @@ a{
     color: inherit;
 }
 button{
-    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    padding: 10px 20px;
     background-color: #fdc885;
-    border-radius: 10px;
+    border-radius: 6px;
     box-shadow: none;
     border: 0;
 }
 .white-bg{
     background-color: white;
-    display: flex;
     margin: auto;
+    padding: 2rem 2rem;
     width: 30%;
-    height: 60vh;
+    height: 70vh;
+    border-radius: 25px;
+}
+.center{
+    text-align: center;
+    padding: 0 1rem;
+}
+.sr-only{
+    display: none;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    margin: 5px;
+}
+form p{
+
+    font-size: 14px;
+    padding-left: 6px;
+}
+form button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
 }
