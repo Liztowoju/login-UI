@@ -25,6 +25,11 @@ h6{
 h6 span{
     padding-left: 1rem;
 }
+h6 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+
+}
 ul{
     display: flex;
     align-items: center;
@@ -35,23 +40,26 @@ li{
     padding-left: 2rem;
     font-size: 1rem;
 }
-li a{
+li a, a{
     text-decoration: none;
     color: inherit;
 }
-button{
+button, .button{
     padding: 10px 20px;
     background-color: #fdc885;
     border-radius: 6px;
     box-shadow: none;
     border: 0;
+    cursor: pointer;
 }
 .white-bg{
     background-color: white;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
     padding: 2rem;
     width: 30%;
-    height: 80vh;
+    min-height: 80vh;
     border-radius: 25px;
 }
 .center{
@@ -60,6 +68,9 @@ button{
 }
 .sr-only{
     display: none;
+}
+.form-row{
+    margin-bottom: 10px;
 }
 input{
     width: 100%;
@@ -71,24 +82,36 @@ input{
 }
 .small-font{
 
-    font-size: 14px;
+    font-size: 12px;
     /* padding-left: 6px; */
-    margin: 20px 5px;
+    /* margin: 20px 5px; */
 
 }
 p{
     align-items: center;
+    margin: 20px 5px;
 }
 form button{
     width: 100%;
     padding: 10px;
     margin: 10px;
 }
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
 .links a{
     text-decoration: none;
     color: inherit;
-    /* display: flex;
-    flex-direction: column;
+    display: flex;
+    /* flex-direction: column; */
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+.footer{
+    margin-bottom: 20px;
 }

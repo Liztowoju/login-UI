@@ -24,13 +24,13 @@
             </div>
             <div class="right-nav">
                 <ul>
-                    <li> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" style="width:1.5rem" fill="none"
+                    <li> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" style="width:1.2rem" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                             </svg></a></li>
-                    <li><a href="#"> Sign Up</a></li>
-                    <li> <button type="button"> <a href="#">Request Demo</a></button></li>
+                    <li><a href="#" class="small-font"> Sign Up</a></li>
+                    <li><a href="#" class="small-font button">Request Demo</a></li>
             </div>
             </ul>
         </div>
@@ -40,24 +40,36 @@
                 <p>Hey, Enter your details to get sign in to your account</p>
             </div>
             <form action="post">
-                <label class="sr-only" for="email">Email</label><br>
-                <input type="text" id="email_or_phone" name="email" placeholder="Enter Email / Phone no"><br>
-                <label class="sr-only" for="password">Passcode</label><br>
+                <div class="form-row">
+                <label class="sr-only" for="email">Email</label>
+                <input type="text" id="email_or_phone" name="email" placeholder="Enter Email / Phone No">
+            </div>
+            <div class="form-row">
+                <label class="sr-only" for="password">Passcode</label>
                 <input type="password" name="password" id="password" placeholder="Passcode">
-                <p class="small-font">Having trouble signing in!</p>
-                <button>Sign in</button>
+            </div>
+                <p class="small-font">Having trouble in sign in?</p>
+                <button class="small-font">Sign in</button>
             </form>
             <p class="small-font center">— or sign in with —</p>
             <div class="links">
                 <a href="https://www.google.com/account/about/">
-                    <img src="googlelogo.png" alt="googlelogo" style="width: 2rem;"><span>Google</span>
+                    <img src="googlelogo.png" alt="googlelogo" style="width: 1.5rem;"><span
+                        class="small-font">Google</span>
                 </a>
-                <a href="https://support.apple.com/en-ng/HT204053"><img src="apple logo.png" alt="applelogo" style="width: 1.5rem;"><span>Apple ID</span></a>
-                <a href=""><img src="facebook logo.png" alt="facebooklogo" style="width: 2.5rem;"><span> Facebook</span></a>
+                <a href="https://support.apple.com/en-ng/HT204053"><img src="apple logo.png" alt="applelogo"
+                        style="width: 1rem;"><span class="small-font">Apple ID</span></a>
+                <a href=""><img src="facebook logo.png" alt="facebooklogo" style="width: 2rem;"> <span
+                        class="small-font"> Facebook </span></a>
             </div>
-            
+            <p class="small-font center">Dont have an account? <span> <a href="#"><strong> Request Now</strong></a></span></p>
+
         </div>
-        <div class="footer"></div>
+
+        <div class="footer">
+            <P class="small-font center">Copyright @wework2022 | Privacy Policy</P>
+
+        </div>
     </div>
 </body>
 
