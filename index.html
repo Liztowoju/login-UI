@@ -39,10 +39,10 @@
                 <h2>Agent login</h2>
                 <p>Hey, Enter your details to get sign in to your account</p>
             </div>
-            <form action="post">
+            <form method="post" id="login-form">
                 <div class="form-row">
                 <label class="sr-only" for="email">Email</label>
-                <input type="text" id="email_or_phone" name="email" placeholder="Enter Email / Phone No">
+                <input type="text" id="email_or_phone" name="email" value="" placeholder="Enter Email / Phone No">
             </div>
             <div class="form-row">
                 <label class="sr-only" for="password">Passcode</label>
@@ -71,6 +71,7 @@
 
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
