@@ -115,3 +115,16 @@ form button{
 .footer{
     margin-bottom: 20px;
 }
+
+#form-errors ol{
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+}
+
+#form-errors li{
+    font-size: 14px;
+    color: red;
+    margin-bottom: 10px;
+    padding: 0;
+}
