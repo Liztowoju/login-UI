@@ -8,7 +8,7 @@ function validatePhoneOrEmail(inputEl) {
     if (inputEl.value.match(phoneFormat) || inputEl.value.match(emailFormat)) {
         return true;
     } else {
-        errors.push("Please enter a valid email or phone number. Phone number shouldn't be more than 10 digits");
+        errors.push("Please enter a valid email or phone number. Phone number should be exactly 10 digits");
         return false;
     }
 }
